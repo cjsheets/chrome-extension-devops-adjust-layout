@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "DevOps Adjust Layout",
   "version": "0.1.0",
-  "description": "Minor layout improvements for Azure DevOps",
+  "description": "Minor layout adjustment for Azure DevOps PRs",
   "permissions": ["scripting", "tabs"],
   "content_scripts": [
     {
@@ -13,13 +13,12 @@
   "background": {
     "service_worker": "service-worker.js"
   },
-  "action": {
-    "default_icon": {
-      "16": "images/icon-16.png",
-      "24": "images/icon-24.png",
-      "32": "images/icon-32.png",
-      "48": "images/icon-48.png",
-      "64": "images/icon-64.png"
-    }
+  "icons": {
+    "16": "images/icon-16.png",
+    "24": "images/icon-24.png",
+    "32": "images/icon-32.png",
+    "48": "images/icon-48.png",
+    "64": "images/icon-64.png",
+    "128": "images/icon-128.png"
   }
 }
